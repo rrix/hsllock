@@ -1,0 +1,9 @@
+{
+  "id": "org.heatsynclabs.hsllock",
+  "version": "0.0.1",
+  "vendor": "Ryan Rix",
+  "type": "web",
+  "main": "index.html",
+  "title": "HeatSyncLabs Lock",
+  "uiRevision": "2"
+}
