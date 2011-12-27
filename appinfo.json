@@ -1,6 +1,6 @@
 {
   "id": "org.heatsynclabs.hsllock",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "vendor": "Ryan Rix",
   "type": "web",
   "main": "index.html",
