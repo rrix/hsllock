@@ -4,7 +4,7 @@
   "vendor":     "Ryan Rix",
   "type":       "web",
   "main":       "index.html",
-  "icon":       "images/appicon.png",
+  "icon":       "assets/appicon.png",
   "title":      "HeatSyncLabs Lock",
   "uiRevision": "2"
 }
