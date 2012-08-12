@@ -4,6 +4,7 @@ enyo.kind({
 
   components: [
     {
+      style: "height: 100%",
       kind: "FittableRows",
       components: [
         {
@@ -13,7 +14,7 @@ enyo.kind({
         },
         {
           kind: "HslLocks.PamelaStatus",
-          fit:true
+          fit:  true
         },
         {
           kind: "onyx.Button",

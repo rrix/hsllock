@@ -1,7 +1,6 @@
 enyo.kind( {
   kind:  "enyo.Control",
   name:  "HslLocks.PamelaStatus",
-  fit:   true,
   style: "text-align: center",
 
   published: {
