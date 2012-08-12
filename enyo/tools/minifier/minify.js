@@ -99,6 +99,7 @@ concatCss = function(loader) {
 concatJs = function(loader) {
 	w("");
 	var blob = "";
+        console.log(loader.modules);
 	for (var i=0, m; m=loader.modules[i]; i++) {
 		if (!opt["no-alias"] && !opt.alias) {
 			w("* inserting path aliases");
@@ -133,7 +134,8 @@ finish = function(loader) {
 	//
 	var output = opt.output || "build";
 	var outfolder = path.dirname(output);
-	if (outfolder != "." && !path.existsSync(outfolder)) {
+	var exists = fs.existsSync || path.existsSync;
+	if (outfolder != "." && !exists(outfolder)) {
 		fs.mkdirSync(outfolder);
 	}
 	//
